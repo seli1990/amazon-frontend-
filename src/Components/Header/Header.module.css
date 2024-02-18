@@ -47,7 +47,7 @@ vertical-align: middle;
     border-radius: 10px;
     overflow: hidden;
      width: 100%;
-     flex:1px ;
+     flex:1 ;
 }
 
 .search select,
@@ -88,7 +88,7 @@ gap:10px ;
    color:white ;
 }
 .order_container p{
-    font-size: 10px;
+    font-size: 13px;
 }
 .language{
     width: 100px;
