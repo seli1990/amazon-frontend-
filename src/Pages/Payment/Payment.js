@@ -13,7 +13,7 @@ import { Type } from '../../Utility/action.type';
 
 function Payment() {
 const [{user,basket},dispatch]= useContext(DataContext)
-console.log(user);
+// console.log(user);
 const totaItem=basket?.reduce((amount,item)=>{
   return item.amount+amount
 },0)

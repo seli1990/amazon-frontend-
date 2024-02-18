@@ -4,7 +4,7 @@ function CurrencyFormat({amount}) {
   
   return (
     <div>
-   ${amount}
+   ${amount.toFixed(2)}
 
     </div>
   )

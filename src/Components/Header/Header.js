@@ -9,8 +9,8 @@ import { DataContext } from '../DataProvider/DataProvider';
 import {auth} from "../../Utility/firebase"
 function Header() {
 
-  const[{user,basket},dispatch]=useContext(DataContext)
-  console.log(basket.length)
+  const[{user,basket}]=useContext(DataContext)
+  // console.log(basket.length)
 const totaItem=basket?.reduce((amount,item)=>{
   return item.amount+amount
 },0)
